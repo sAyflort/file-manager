@@ -13,4 +13,8 @@
     <HBox VBox.vgrow="ALWAYS" >
         <TableView VBox.vgrow="ALWAYS" HBox.hgrow="ALWAYS"/>
     </HBox>
+    <properties>
+        <ctrl><fx:reference source="controller"/></ctrl>
+    </properties>
+
 </VBox>

@@ -31,8 +31,8 @@
         </MenuBar>
 
         <HBox VBox.vgrow="ALWAYS">
-            <fx:include source="panel.fxml" HBox.hgrow="ALWAYS"/>
-            <fx:include source="panel.fxml" HBox.hgrow="ALWAYS"/>
+            <fx:include fx:id="leftTable" source="panel.fxml" HBox.hgrow="ALWAYS"/>
+            <fx:include fx:id="rightTable" source="panel.fxml" HBox.hgrow="ALWAYS"/>
         </HBox>
 
         <HBox spacing="10">
